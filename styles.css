@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(17, 195, 235);
+}
+
+#count{
+    margin-bottom: 20px;
+}
+
+.btn{
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+    transition-duration: .5s;
+}
+
+.blue:hover{
+    background-color: rgb(143, 223, 241)
+}
+
+.red:hover{
+    background-color: rgb(228, 10, 10);
+}
+
+.green:hover{
+    background-color: rgb(13, 119, 23);
+}

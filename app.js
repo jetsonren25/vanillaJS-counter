@@ -1,20 +1,21 @@
 let body = document.querySelector('body')
 
 let container = document.createElement('div')
+container.setAttribute('class','container')
 
 let h1Ctr = document.createElement('h1')
 h1Ctr.textContent = 'Counter'
 
 let inc = document.createElement('button')
-inc.setAttribute('class','btn')
+inc.setAttribute('class','btn green')
 inc.textContent = 'increase'
 
 let reset = document.createElement('button')
-reset.setAttribute('class','btn')
+reset.setAttribute('class','btn blue')
 reset.textContent = 'reset'
 
 let dec = document.createElement('button')
-dec.setAttribute('class','btn')
+dec.setAttribute('class','btn red')
 dec.textContent = 'decrease'
 
 let count = 0
