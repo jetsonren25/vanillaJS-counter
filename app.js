@@ -31,8 +31,12 @@ container.appendChild(reset)
 container.appendChild(dec)
 
 // -------- CODE HERE
+
+
 let btns = document.querySelectorAll('.btn')
-btns.forEach(btn => {btn.addEventListener('click', (e) => update(e))})
+btns.forEach(btn => {btn.addEventListener('click', (e) => update(e))
+})
+
 
 const update = (e) => {{
     switch (e.target.textContent) {
@@ -49,7 +53,12 @@ const update = (e) => {{
             countHolder.textContent = count
             break;
     }
+    if(count > 0){(countHolder.style.color = 'rgb(13, 119, 23)') && (h1Ctr.style.color = 'rgb(13, 119, 23)')}
+    if(count < 0){(countHolder.style.color = 'rgb(228, 10, 10)') && (h1Ctr.style.color = 'rgb(228, 10, 10)')}
+    if(count === 0){(countHolder.style.color = 'rgb(143, 223, 241)') && (h1Ctr.style.color = 'rgb(143, 223, 241)')}
 }}
+
+
 
 
 
